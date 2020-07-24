@@ -52,6 +52,8 @@ print(mergesort(arr))
 ### arr = [4,1,7,8,3,5,9] 
 ### Method: Pivot element: items on the left are smaller, items on the right are larger. Set first element to pivot, then use partition function to put pivot to correct position.
 
+![6](https://user-images.githubusercontent.com/37478093/88377847-7ea83300-cdd2-11ea-8fc8-8ed6a121623c.png)
+
 ```
 def quicksort(arr):
     quicksort2(arr, 0, len(arr)-1)
