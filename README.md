@@ -1,6 +1,6 @@
 # Sorting-Algorithms-in-Python
 
-## MergeSort O(nlogn) (Divide & conquer)
+## 1. MergeSort O(nlogn) (Divide & conquer)
 ### arr = [2,8,5,3,9,4,1,7] 
 ### Divide & conquer, excute recursively, first devide then merge
 
@@ -45,7 +45,7 @@ print(mergesort(arr))
 # [1, 2, 3, 4, 5, 7, 8, 9]
 ```
 
-## QuickSort Worst: O(n^2) Average: O(nlogn)
+## 2. QuickSort Worst: O(n^2) Average: O(nlogn)
 ### arr = [4,1,7,8,3,5,9] 
 ### Method: Pivot element: items on the left are smaller, items on the right are larger. Set first element to pivot, then use partition function to put pivot to correct position.
 
@@ -110,7 +110,7 @@ print(arr)
 # [3, 1, 4, 8, 7, 5, 9]
 ```
 
-## Selection sort O(n^2)
+## 3. Selection sort O(n^2)
 ### arr = [2,5,1,8,9,4]
 ### Method: Select min element on right side of i, if min is smaller than arr[i] then swap the min with arr[i], else arr[i] is in correct position
 
@@ -138,7 +138,7 @@ selectionSort(arr)
 # [1, 2, 4, 5, 8, 9]
 ```
 
-## Bubble sort O(n^2)
+## 4. Bubble sort O(n^2)
 ### arr = [2,5,1,8,9,4]
 ### Bubble: Bubble(largest value float to right side)
 ```
