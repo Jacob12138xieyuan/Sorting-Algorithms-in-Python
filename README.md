@@ -4,7 +4,7 @@
 ### arr = [2,8,5,3,9,4,1,7] 
 ### Divide & conquer, excute recursively, first devide then merge
 
-'''
+`
 def mergesort(arr):
     if(len(arr) <= 1): # already divide in to one element
         return arr # return itself
@@ -43,4 +43,4 @@ print(mergesort(arr))
 # [4, 9] [1, 7]
 # [2, 3, 5, 8] [1, 4, 7, 9]
 # [1, 2, 3, 4, 5, 7, 8, 9]
-'''
+`
