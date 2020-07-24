@@ -151,9 +151,7 @@ selectionSort(arr)
 # for k in range(n-1):
 #     if arr[i] > arr[i+1]:
 #         # swap
-#         temp = arr[i]
-#         arr[i] = arr[i+1]
-#         arr[i+1] = arr[i]
+#         arr[k], arr[k+1] = arr[k+1], arr[k] 
 
 # O(n^2)
 arr = [2, 5, 1, 8, 9, 4]
