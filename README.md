@@ -119,6 +119,8 @@ print(arr)
 ### arr = [2,5,1,8,9,4]
 ### Method: Select min element on right side of i, if min is smaller than arr[i] then swap the min with arr[i], else arr[i] is in correct position
 
+![7](https://user-images.githubusercontent.com/37478093/88378313-579e3100-cdd3-11ea-8caa-daa319c21ea9.png)
+
 ```
 def selectionSort(arr):
     n = len(arr)
@@ -146,6 +148,9 @@ selectionSort(arr)
 ## 4. Bubble sort O(n^2)
 ### arr = [2,5,1,8,9,4]
 ### Bubble: Bubble(largest value float to right side)
+
+![8](https://user-images.githubusercontent.com/37478093/88378322-5a008b00-cdd3-11ea-8bca-ea904a7d0e54.png)
+
 ```
 # do following one time one bubble will float to the end
 # for k in range(n-1):
