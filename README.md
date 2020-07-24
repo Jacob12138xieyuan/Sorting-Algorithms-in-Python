@@ -4,6 +4,9 @@
 ### arr = [2,8,5,3,9,4,1,7] 
 ### Divide & conquer, excute recursively, first devide then merge
 
+![4](https://user-images.githubusercontent.com/37478093/88377323-89ae9380-cdd1-11ea-8490-d7035f8ac3e9.png)
+![5](https://user-images.githubusercontent.com/37478093/88377324-8adfc080-cdd1-11ea-9aa6-97b6ce056f2e.png)
+
 ```
 def mergesort(arr):
     if(len(arr) <= 1): # already divide in to one element
